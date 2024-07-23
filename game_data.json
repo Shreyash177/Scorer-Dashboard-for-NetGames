@@ -1,0 +1,19 @@
+{
+    "users": [
+        {"username": "admin", "password": "admin123", "role": "admin"},
+        {"username": "scorer", "password": "scorer123", "role": "scorer"}
+    ],
+    "games": {
+        "badminton": {
+            "default_points_to_win": 21,
+            "golden_point": 30
+        },
+        "table_tennis": {
+            "default_points_to_win": 11,
+            "golden_point": 0
+        },
+        "lawn_tennis": {
+            "golden_point": 0
+        }
+    }
+}
